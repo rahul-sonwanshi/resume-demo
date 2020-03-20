@@ -1,0 +1,22 @@
+<div class="spacing">
+    <div class="row">
+        <h2> {{ title }}</h2>
+        <div class="col">
+            <hr style="width: 90%; float: left">
+        </div>
+    </div>
+    <div class="row" *ngFor="let detail of details; last as isLast">
+        <div id="container" class="col-md-1">
+            <div class="timeline-bullet" [style.backgroundImage] = "'url(assets/images/circle.svg)'"></div>
+            <div *ngIf="!isLast" class="timeline" [style.backgroundImage] = "'url(assets/images/line.svg)'"></div>
+        </div>
+        <div class="col-md-10">
+            <div style="float: left;">
+                <h5>{{ detail?.position }},{{ detail?.event }}</h5>
+            <p>{{ detail?.place }}</p>
+            </div>
+            <h5 style="float: right;">{{ detail?.year }}</h5>
+            <div style="clear:both;">{{ detail?.summary }}</div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,101 @@
+
+{
+    "name": "RAHUL SONWANSHI",
+    "designation": "Full Stack Developer",
+    "contact": {
+      "email": "rahulsonwanshi3@gmail.com",
+      "phone": "7206541081",
+      "linkedin": "https://www.linkedin.com/in/rahul-sonwanshi-0546b312b/"
+    },
+    "summary": "I’m Rahul Sonwanshi and I’m passonate about computer technology also I’m hard working and dedicated person who finishes the task on time.",
+    "education": [{
+      "timeRange": "2014-2018",
+      "place": "IIIT, Sonepat (Mentor NIT Kurukshetra)",
+      "specialization": "Computer Engineering",
+      "summary": "During this time I participated in various hackathons and competition. I’ve learned a lot. "
+    },
+    {
+      "timeRange": "2012-2014",
+      "place": "IIT’ians PACE Junior College",
+      "specialization": "Stream Computers & Science",
+      "summary": "I’ve learned a lot during my time at junior college preparing for competition."
+    },
+    {
+      "timeRange": "2000-2012",
+      "place": "Cambridge School",
+      "specialization": "School",
+      "summary": "This is the place where I studied for my 10th board exams."
+    }],
+    "experience": [{
+      "timeRange": "AUGUST 2019 - PRESENT",
+      "place": "Fiverr, Konker, Mumbai",
+      "specialization": "FreeLance Web Developer",
+      "summary": "During this period I worked as a freelance developer building websites for my clients for their businesses and also provided micro services such as background removal and enhancing images for their products."
+    },
+    {
+      "timeRange": "AUGUST 2018 - AUGUST 2019",
+      "place": "GreenStack Computing, Mumbai",
+      "specialization": "Full Stack Developer",
+      "summary": "During this period I worked on automating consolidation process for companies to generate annual/ quarterly reports, balance sheets, RERA Reports and Reconciliation Report. This automation process eliminates a lot of manual errors and keep track of all the records in 1 place."
+    },
+    {
+      "timeRange": "JUNE 2016 - JULY 2016",
+      "place": "HP, Mumbai",
+      "specialization": "Core Java & Android Developer",
+      "summary": "During this period I learned how to develop Android applications using eclipse IDE and the fundamentals of JAVA."
+    }],
+    "personalQualities": [{
+        "name": "Confidence",
+        "rating": 9.35
+    },
+    {
+      "name": "Dedication",
+      "rating": 9.6
+    },
+    {
+      "name": "Accountable",
+      "rating": 9.5
+    },
+    {
+      "name": "Analytical",
+      "rating": 9.0
+    },
+    {
+      "name": "Diplomatic",
+      "rating": 8.5
+    },
+    {
+      "name": "Attentiveness",
+      "rating": 9.35
+    }],
+    "professionalSkills": [{
+      "name": "C++",
+      "rating": 9.2
+    },
+    {
+      "name": "JAVA",
+      "rating": 8.9
+    },
+    {
+      "name": "Angular",
+      "rating": 9.7
+    },
+    {
+      "name": "Javascript",
+      "rating": 9.6
+    }],
+    "awards": [{
+      "year": "2016",
+      "position": "Winner",
+      "event": "Hackathon Techspardha",
+      "place": "Techspardha NIT KKR",
+      "summary": "1st Position for developing virtual assistant Chrome Web app, Socius, in 12 hours using various APIs such as – Exotel SMS/Call API, Google Speech-to-Text, Social Login APIs, Google Maps Distance Matrix, Google Calendar."
+    },
+    {
+      "year": "2016",
+      "position": "Runner Up",
+      "event": "Excalibur",
+      "place": "Techspardha NIT KKR",
+      "summary": "3rd Position for developing utility software that helps you manage files in your system efficiently and easily, File Organizer, using C#. For more details refer Project Section."
+    }]
+}

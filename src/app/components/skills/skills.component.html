@@ -1,0 +1,22 @@
+<div class="spacing">
+    <div class="row">
+        <h2> {{ title }}</h2>
+        <div class="col">
+            <hr style="width: 90%; float: left">
+        </div>
+    </div>
+    <div class="row spacing" *ngFor="let skill of skills; last as isLast">
+        <div class="col-sm-3">
+            <h5>{{ skill.name }}</h5>
+        </div>
+    
+        <div class="col-sm-9">
+            <!-- <progress class="col-sm-11" id="health" [value]="skill.rating*10" max="100"></progress> -->
+            <div class="col-sm-11">
+                <div class="progress">
+                    <div class="progress-bar rating" role="progressbar" [style.width]="skill.rating*10+'%'" style.background-color="background-color:red !important" aria-valuenow="skill.rating*10" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
